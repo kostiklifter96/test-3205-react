@@ -1,0 +1,84 @@
+.App {
+    background-color: rgb(8, 8, 46);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 20px 220px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title {
+    padding: 30px 15px 0 15px;
+    font-size: 24px;
+}
+
+.form-field {
+    display: grid;
+    padding: 15px;
+    grid-template-rows: 10px 40px 10px 40px 10px 45px;
+    gap: 3px;
+}
+
+.form-field > label {
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.form-field > input {
+    background-color: rgb(202, 224, 245);
+    border-radius: 10px;
+    padding: 10px;
+}
+.form-field > button {
+    /* margin-top: 10px; */
+    color: white;
+    background-color: rgb(8, 8, 46);
+    border-radius: 10px;
+}
+
+.userList {
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 300px;
+}
+
+.userList-list {
+    margin: 5px;
+}
+
+.userList-list_item {
+    border: 1px solid rgb(8, 8, 46);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.emptyUserInfo {
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 35px;
+}
+
+.emptyUserInfo-title {
+    margin: 5px;
+    display: grid;
+    justify-content: center;
+    font-weight: bold;
+}
